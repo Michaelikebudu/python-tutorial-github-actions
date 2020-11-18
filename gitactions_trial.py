@@ -1,1 +1,3 @@
-print("Hello world");
+def printhello():
+    return "Hello_world";
+
