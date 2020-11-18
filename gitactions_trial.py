@@ -1,11 +1,11 @@
-<<<<<<< HEAD
-print("Hi");
-=======
+
+print("Hi")
+
 
 def printhello():
     return "Hello_world";
 
 
-print("Hi");
+print("Hi")
 
->>>>>>> mike
+
