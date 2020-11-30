@@ -7,11 +7,11 @@ def trial():
     printw("Hello world!")
     word = "Hello world!"
     now = datetime.datetime.now()
-    printw("Current date and time is ")
-    printw(now.strftime("%A, %d-%m-%Y : %H:%M"))
-
-
-
+    print("Current date and time is ")
+    d = "Current date and time is "
+    print(now.strftime("%A, %d-%m-%Y : %H:%M"))
+    t = now.strftime("%A, %d-%m-%Y : %H:%M")
+    return word, d, t
 
 
 def printhello():
@@ -20,3 +20,4 @@ def printhello():
 
 print("Michael")
 print("David")
+print(trial())
