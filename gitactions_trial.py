@@ -4,7 +4,7 @@ import datetime
 
 
 def trial():
-    printw("Hello world!")
+    print("Hello world!")
     word = "Hello world!"
     now = datetime.datetime.now()
     print("Current date and time is ")
